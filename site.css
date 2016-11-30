@@ -3,18 +3,19 @@ font-family: "Times New Roman", serif;
 background-color: #F2FFFC;
 }
 
-h1, h2 {
-
-    font-family: "Arial", sans-serif;
-}
-
-h1 {
+main h1 {
     font-size: 60px;
     text-align: center;
     background-color: #851944;
     color: #FFF;
+    font-family: "Open Sans Condensed ", sans-serif;
 }
 
+
+h2 {
+    font-size: 40px;
+    font-family: "Arial", sans-serif;
+}
 p {
     text-align: justify;
 }
