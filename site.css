@@ -12,6 +12,8 @@ main h1 {
     text-align: center;
     background-color: #851944;
     color: #FFF;
+    padding: 20px;
+    margin: 0px;
 }
 
 p {
@@ -20,6 +22,10 @@ p {
 
 blockquote {
     background-color: #D9E5E3;
+    padding: 18px;
+    border: 10px solid #ccccc7;
+    width: 250px;
+    margin: 0px;
 }
 
 aside {
