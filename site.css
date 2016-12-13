@@ -6,7 +6,9 @@ body {
 }
 
 h1, h2 {
+    font-size: 40px;
     font-family: "Open Sans Condensed", "Arial", sans-serif;
+    clear: both;
 }
 
 main h1 {
@@ -16,6 +18,7 @@ main h1 {
     padding: 25px;
     border-bottom: 10px solid black;
     font-size: 60px;
+    text-transform: uppercase;
 }
 
 p {
@@ -30,14 +33,21 @@ blockquote {
     box-sizing: border-box;
     margin: 20px 40px;
 }
+.ct1{
+    float: right;
+}
+.ct2{
+    float: left;
+}
 
+/*Fundo roxo do asside*/
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
 }
 
 
-/*Aqui é o fundo roxo*/
+/*Aqui é o fundo preto do rodape*/
 footer {
     background-color: #000;
     color: #F2FFFC;
@@ -87,6 +97,25 @@ h2 {
     font-size: 30px;
 }
 
-#icones-sociais li {
+.icones-sociais li {
     display: inline-block;
+}
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.github{
+    background: url("github.png");
+}
+.twitter{
+    background-image: url("twitter.png");
+}
+.linkedin{
+    background-image: url("linkedin.png");
+}
+
+aside, img {
+    float: right;
 }
